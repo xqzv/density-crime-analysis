@@ -9,19 +9,20 @@ Comparative analysis of NYPD and LAPD arrest patterns (2010–2019), exploring r
 
 ## 📖 Overview
 
-This project analyzes how arrest patterns correlate with population density in two major U.S. cities. It demonstrates data engineering, exploratory data analysis, and interactive visualization skills through a reproducible, modular codebase and interactive Streamlit dashboard.
+Urban density and policing strategies are inextricably linked, yet comparing distinct metropolitan models like New York and Los Angeles is difficult due to fragmented data standards.
 
-**Key Research Topics:**
-*   **Temporal Patterns**: Cyclical variations in criminal activity based on time of day, day of week, month, or year.
-*   **Crime Hotspots**: Geographic areas with disproportionately high concentrations of criminal activity.
-*   **Enforcement Density**: The concentration of police resources relative to population and geography.
+**Density Crime Analysis** unifies over a decade of arrest records from NYPD and LAPD into a standardized, interactive intelligence platform. It enables policy makers, journalists, and researchers to:
 
-## ✨ Features
+*   **Audit Enforcement**: Compare arrest rates normalized by population density across disparate urban environments.
+*   **Identify Bias**: Visualize demographic disparities and enforcement patterns across different geographies.
+*   **Optimize Policy**: Distinguish between seasonal crime spikes and systemic enforcement trends to inform resource allocation.
 
-- **Data Standardization**: Unified schema for NYPD and LAPD data, standardizing age, gender, race, and offense categories.
-- **Interactive Dashboard**: Streamlit-powered application for exploring data with year-range filtering and demographic breakdowns.
-- **Advanced Visualization**: Interactive Plotly charts for temporal analysis and Folium maps for geographic exploration.
-- **Reproducible Pipeline**: Modular code structure with clear separation of concerns (IO, processing, visualization).
+## ✨ Platform Capabilities
+
+- **Unified Data Schema**: Harmonizes disparate NYPD and LAPD datasets into a single analytical model, standardizing age, gender, race, and offense taxonomies.
+- **Interactive Intelligence**: Streamlit-powered dashboard enabling real-time exploration of multi-year trends with granular demographic filtering.
+- **Geospatial & Temporal Analysis**: Advanced visualization suite (Plotly/Folium) for identifying localized hotspots and cyclical enforcement patterns.
+- **Reproducible Pipeline**: Modular, production-ready architecture designed for extensibility and transparent data lineage.
 
 ## 📂 Repository Structure
 
